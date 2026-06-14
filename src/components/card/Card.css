@@ -1,0 +1,56 @@
+.card {
+  width: 300px;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid green;
+}
+
+.card img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card main {
+  padding: 0.5rem 1rem;
+}
+
+.card p {
+  font-size: 1.3rem;
+  font-family: cursive;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
+.card-details p {
+  margin-top: 0;
+}
+
+.card button {
+  width: 100%;
+  padding: 0.7rem;
+  outline: 0;
+  color: green;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid black;
+  margin: 1rem 0;
+  border-radius: 5px;
+  transition: 0.2s all ease-in;
+}
+
+.card button:hover {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}

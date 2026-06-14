@@ -1,0 +1,66 @@
+.emptyBasket {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.emptyBasket img {
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.emptyBasket p {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.card-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding-top: 4rem;
+  margin-bottom: 6rem;
+  position: relative;
+  z-index: 999;
+}
+
+.cart-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cart-topbar .title {
+  margin-left: 0 !important;
+}
+
+.cart-topbar button {
+  background-color: green;
+  color: white;
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem;
+  border: 1px solid white;
+}
+
+.delete-icon {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+.product-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(239, 235, 235, 0.542);
+}
+
+.product-count p {
+  margin: 10px 0;
+}

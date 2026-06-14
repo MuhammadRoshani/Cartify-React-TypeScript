@@ -1,0 +1,134 @@
+body {
+  background: linear-gradient(
+    135deg,
+    #f5f7fa 0%,
+    #eaf2ff 50%,
+    #ffffff 100%
+  );
+}
+
+.card {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.app {
+  padding: 0rem 2rem;
+  min-height: 97vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* Header */
+.app header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: relative;
+  z-index: 999;
+}
+
+.shop-icon {
+  font-size: 1.6rem;
+}
+
+.app header a {
+  cursor: pointer;
+  position: relative;
+  color: black;
+}
+
+.app header span {
+  position: absolute;
+  right: -6px;
+  top: 11px;
+  color: white;
+  font-size: 0.7rem;
+  width: 4px;
+  background: green;
+  padding: 0.1rem 0.4rem;
+  border-radius: 14px;
+}
+
+.app header .logo {
+  font-size: 2rem;
+  text-decoration: none;
+  margin-top: 12px;
+  font-family: cursive;
+}
+
+/* Footer */
+.app footer {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  background-color: white;
+  padding: 1rem 0;
+  border-top: 1px solid black;
+}
+
+.app footer a {
+  text-decoration: none;
+  color: green;
+}
+
+/* SweetAlert */
+.swal-footer {
+  text-align: center !important;
+}
+
+.swal-button--confirm {
+  background-color: green !important;
+}
+
+.swal-button--cancel {
+  background-color: #c3c1c1 !important;
+  color: black !important;
+}
+
+.swal-title {
+  font-family: cursive;
+  padding-bottom: 31px;
+}
+
+/* Home */
+.main-index {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding-top: 4rem;
+  margin-bottom: 6rem;
+  position: relative;
+  z-index: 999;
+}
+
+.index-first-bg {
+  position: absolute;
+  right: -7px;
+  top: -14px;
+  width: 100%;
+}
+
+.title {
+  background: white;
+  margin-top: 4rem;
+  border-radius: 500px;
+  font-size: 2rem;
+  font-family: cursive;
+  width: max-content;
+  padding: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.app section,
+.main-index section {
+  position: relative;
+  z-index: 999;
+}
