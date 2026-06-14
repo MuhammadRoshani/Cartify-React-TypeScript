@@ -8,7 +8,7 @@ This project demonstrates state management, API integration, and a clean UI for 
 ## 🚀 Live Demo
 
 ✅ Vercel Deployment:  
-👉 Live Preview: **[https://]**
+👉 Live Preview: **[https://cartify-react-type-script.vercel.app]**
 
 ---
 
